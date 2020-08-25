@@ -1,0 +1,47 @@
+{
+  "name": "vue3-swiper-nice",
+  "version": "1.0.1",
+  "description": "基于 vue3 的移动 h5 轮播图组件",
+  "main": "dist/swiper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --open --mode development",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/q788799660/vue3-swiper-nice.git"
+  },
+  "keywords": [
+    "swiper",
+    "vue3"
+  ],
+  "author": "xudong q788799660@163.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/q788799660/vue3-swiper-nice/issues"
+  },
+  "homepage": "https://github.com/q788799660/vue3-swiper-nice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@vue/cli-service": "^4.5.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^4.2.2",
+    "file-loader": "^6.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.9.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}

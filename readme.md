@@ -15,10 +15,14 @@
 + Swiper-slider:
     - *slideId（Number）： swiper 子项的 id  (必选) 
 
+## 安装
+
+`npm install vue3-swiper-nice`;
+
 ## 实现方式
 
 ```html
-<Swiper class="swiper">
+<Swiper class="swiper" :options="option">
     <Swiper-slider :slideId="1" class="img1">轮播图1</Swiper-slider>
     <Swiper-slider :slideId="2" class="img2">轮播图2</Swiper-slider>
     <Swiper-slider :slideId="3" class="img3">轮播图3</Swiper-slider>

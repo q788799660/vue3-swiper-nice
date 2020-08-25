@@ -17,7 +17,7 @@
 
 ## 安装
 
-`npm install vue3-swiper-nice`;
+`npm install vue3-swiper-nice`
 
 ## 实现方式
 

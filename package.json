@@ -1,6 +1,6 @@
 {
   "name": "vue3-swiper-nice",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于 vue3 的移动 h5 轮播图组件",
   "main": "dist/swiper.js",
   "scripts": {

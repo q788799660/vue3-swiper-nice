@@ -1,5 +1,5 @@
 ## 轮播图组件(待完善)
-    总体来说 基本按照 vue-awesome-swiper 实现方式写的
+    一个基于 vue 实现的移动端 h5 轮播图组件
 ## 参数列表(待完善)
 + Swiper: 
     ```js
@@ -13,7 +13,7 @@
     ```
 
 + Swiper-slider:
-    - *slideId（Number）： swiper 子项的 id 
+    - *slideId（Number）： swiper 子项的 id  (必选) 
 
 ## 实现方式
 
@@ -28,11 +28,8 @@
 ```
 
 ```js
-import SwiperSlider from 'swiper/SwiperSlider.vue';
-import Swiper from 'swiper/Swiper.vue';
-@Component({components:{
-    Swiper, SwiperSlider
-}})
+import {Swiper, SwiperSlider} from 'vue3-swiper-nice';
+Vue.use(Swiper).use(SwiperSlider);
 ```
 
 ## 事件（待完善）
